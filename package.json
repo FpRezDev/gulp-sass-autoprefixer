@@ -1,0 +1,34 @@
+{
+  "name": "gulp-sass-autoprefixer",
+  "version": "1.0.0",
+  "description": "A Simple gulp plugin using sass and autoprefixer",
+  "devDependencies": {
+    "autoprefixer": "^9.8.0",
+    "bootstrap": "^4.5.0",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-sass": "^4.14.1"
+  },
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FpRezDev/gulp-sass-autoprefixer.git"
+  },
+  "keywords": [
+    "gulp",
+    "sass",
+    "autoprefixer"
+  ],
+  "author": "FpRezDev <fprez.developer@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FpRezDev/gulp-sass-autoprefixer/issues"
+  },
+  "homepage": "https://github.com/FpRezDev/gulp-sass-autoprefixer#readme"
+}

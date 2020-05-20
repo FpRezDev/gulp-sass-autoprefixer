@@ -1,3 +1,6 @@
+# Test Output Dir
+test-output/
+
 # Logs
 logs
 *.log
