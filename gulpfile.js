@@ -1,4 +1,4 @@
-const { compile } = require(".");
+const { compile } = require("./index");
 const config = require('./sassconfig.json');
 const del = require('del');
 
