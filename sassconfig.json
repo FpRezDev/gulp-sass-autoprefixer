@@ -1,0 +1,12 @@
+{
+  "inputFiles": "test/bootstrap.scss",
+  "outputDir": "test-output/",
+  "sourcemap": true,
+  "minimize": true,
+  "autoprefixer": {
+    "flexbox": "no-2009"
+  },
+  "sass": {
+    "outputStyle": "expanded"
+  }
+}

@@ -1,9 +1,9 @@
 const { compile } = require("./gulp-sass-autoprefixer");
-const { bootstrapConfig } = require('./sass.bootstrap.config');
+const config = require('./sassconfig.json');
 const del = require('del');
 
 exports.build = () => {
-  return compile(bootstrapConfig);
+  return compile(config);
 };
 
 exports.clean = function() {
