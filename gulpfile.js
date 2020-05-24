@@ -1,4 +1,4 @@
-const { compile } = require("./gulp-sass-autoprefixer");
+const { compile } = require(".");
 const config = require('./sassconfig.json');
 const del = require('del');
 
