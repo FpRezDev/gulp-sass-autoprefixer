@@ -1,10 +1,9 @@
 {
   "name": "gulp-sass-autoprefixer",
   "version": "1.0.0",
-  "description": "A Simple gulp plugin using sass and autoprefixer",
-  "devDependencies": {
+  "description": "Compile, prefix, create sourcemaps, & minimize on the with minimal setup!",
+  "dependencies": {
     "autoprefixer": "^9.8.0",
-    "bootstrap": "^4.5.0",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-cssmin": "^0.2.0",

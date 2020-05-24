@@ -17,7 +17,7 @@ const rename = require('gulp-rename');
  * @param {Object} config.autoprefixer Autoprefixer Config
  * @param {Object} config.sass Sass Configuration
  */
-const compile = (config) => {
+const buildStyles = (config) => {
 
   let _inputFiles = config.inputFiles;
   let _outputDir = config.outputDir;
@@ -34,7 +34,6 @@ const compile = (config) => {
       .pipe(gulpIf(_minimize, rename({suffix: '.min'})))
       .pipe(gulpIf(_sourcemap, sourcemaps.write('./')))
       .pipe(dest(_outputDir));
-
 }
 
-module.exports.compile = compile;
+module.exports.buildStyles = buildStyles;
